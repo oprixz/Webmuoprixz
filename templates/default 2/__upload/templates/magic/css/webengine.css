@@ -1,0 +1,487 @@
+.admincp-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.page-title {
+    color: #24131f;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* RANKINGS MODULE */
+
+.rankings-table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    -moz-box-shadow: 0 0 5px #e3e3e3;
+    -webkit-box-shadow: 0 0 5px #e3e3e3;
+    box-shadow: 0 0 5px #e3e3e3;
+}
+
+.rankings-class-image {
+    width: 30px;
+    height: auto;
+    -moz-box-shadow: 0 0 5px #666;
+    -webkit-box-shadow: 0 0 5px #666;
+    box-shadow: 0 0 5px #666;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.rankings-table tr td {
+    border-bottom: 1px solid #e3e3e3;
+    padding: 7px;
+    font-size: 14px;
+    color: #24131f;
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+.rankings-table a {
+    color: #24131f;
+}
+
+.rankings-table-place {
+    color: #666;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.rankings-table tr:first-child td {
+    color: #ff0000;
+    border-bottom: 3px solid #ff0000;
+}
+
+.rankings-update-time {
+    text-align: right;
+    font-size: 11px;
+    color: #ccc;
+    padding: 10px 0px;
+}
+
+.rankings_menu {
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.rankings_menu span {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+    color: #ccc;
+    font-size: 24px;
+}
+
+.rankings_menu a {
+    background: linear-gradient(to bottom, #ed4946, #791044);
+    text-decoration: none !important;
+    border-radius: 5px;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 5px 5px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+}
+
+.rankings_menu a:hover {
+    filter: brightness(120%);
+}
+
+.rankings_menu a.active {
+    background: linear-gradient(to bottom, #ca3d3b, #5c0c34);
+}
+
+.rankings_guild_logo tr td {
+    border: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.rankings-gens-img {
+    width: auto !important;
+    height: 30px !important;
+    border: 0 !important;
+    -moz-box-shadow: 0 0 0px #000 !important;
+    -webkit-box-shadow: 0 0 0px #000 !important;
+    box-shadow: 0 0 0px #000 !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+/* MY ACCOUNT MODULE */
+
+.myaccount-table {
+    width: 100%;
+    background: #f1f1f1;
+    border: 1px solid #e3e3e3;
+}
+
+.myaccount-table tr td:first-child {
+    color: #666;
+    font-weight: bold;
+}
+
+.myaccount-table tr td {
+    border-bottom: 1px solid #e3e3e3;
+    padding: 15px !important;
+}
+
+.myaccount-table tr:last-child td {
+    border: 0px;
+}
+
+/* GENERAL TABLE UI */
+
+.general-table-ui {
+    width: 100%;
+    table-layout: fixed;
+    background: #f1f1f1;
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.general-table-ui tr td {
+    padding: 5px;
+    vertical-align: middle !important;
+}
+
+.general-table-ui tr:first-child td {
+    color: #ff0000;
+}
+
+.general-table-ui tr:nth-child(2n+2) td {
+    background: #fafafa;
+}
+
+.general-table-ui tr td {
+    text-align: center;
+}
+
+.general-table-ui img {
+    width: 50px;
+    height: auto;
+    -moz-box-shadow: 0 0 5px #666;
+    -webkit-box-shadow: 0 0 5px #666;
+    box-shadow: 0 0 5px #666;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+/* NEWS MODULE */
+
+.panel-body {
+    padding: 15px 0px;
+}
+
+.panel-news {
+    margin-bottom: 30px;
+    color: #333;
+    border: 0px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+}
+
+.panel-news .panel-heading {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2c1750;
+}
+
+.panel-news .panel-title {
+    color: #24131f;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.panel-news .panel-footer {
+    border-top: 1px solid #e7e7e700;
+    background: rgba(255, 255, 255, 0);
+    font-style: italic;
+    font-size: 11px;
+    height: 40px;
+    color: #777;
+}
+
+.panel {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* CASTLE SIEGE SIDEBAR PANEL */
+.panel-castle-siege {
+	color: #fff;
+}
+	.panel-castle-siege img {
+		box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	}
+	.panel-castle-siege a {
+		color: #fff;
+	}
+	.panel-castle-siege .title-castle-owner {
+		font-weight: bold;
+		color: #ffb86b;
+	}
+	.panel-castle-siege .title-guild-master {
+		font-weight: bold;
+		color: #ffb86b;
+	}
+	.panel-castle-siege .title-castle-battle {
+		font-weight: bold;
+	}
+	.panel-castle-siege .castle-siege-countdown {
+		margin-top: 35px;
+	}
+	.panel-castle-siege .castle-countdown {
+		font-size: 28px;
+		font-weight: bold;
+		color: #fff;
+	}
+	.panel-castle-siege .castle-countdown span {
+		color: #ffcc00;
+		font-size: 20px;
+	}
+
+.smalltext {
+	font-size: 11px;
+}
+
+/* NEWS */
+.news-article {
+	position: relative;
+	padding: 15px 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
+}
+	.news-article .news-image {
+		padding: 10px;
+	}
+	.news-article .news-image img {
+		width: 100%;
+		height: auto;
+		box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+	}
+	.news-article .news-content {
+		padding: 10px;
+	}
+		.news-article .news-content h3 {
+			margin: 0px 0px 15px 0px;
+			padding: 0px 0px 5px 0px;
+			text-transform: uppercase;
+			font-size: 18px;
+			font-weight: bold;
+			border-bottom: 1px solid #230707;
+		}
+		.news-article .news-content h3 a {
+			color: #230707;
+		}
+		.news-article .news-content .news-date {
+			font-size: 12px;
+			font-style: italic;
+			color: #aaa;
+		}
+	.news-article:hover {
+		background: rgba(255, 255, 255, 0.3);
+	}
+	
+/* DOWNLOADS */
+.panel-downloads {
+	margin-bottom: 30px;
+	background: rgba(255, 255, 255, 0.3);
+	transition: all 0.3s ease;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	color: #333;
+}
+.panel-downloads:hover {
+	background: rgba(255, 255, 255, 0.8);
+}
+	.panel-downloads .panel-title {
+		font-size: 18px;
+	}
+	.download-description {
+		font-size: 11px;
+		position: relative;
+		top: -7px;
+		color: #777;
+	}
+
+/* LANGUAGE PICKER */
+.webengine-language-switcher {
+	display: inline-block;
+	list-style: none;
+	padding: 0px !important;
+	margin: 0px !important;
+	overflow: hidden;
+	transition: all .3s ease;
+}
+	.webengine-language-switcher li {
+		display: inline-block;
+		list-style-type: none;
+		background: #333333;
+		padding: 5px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		-khtml-border-radius: 3px;
+		transition: all .3s ease;
+	}
+	.webengine-language-switcher li:hover {
+		-webkit-filter: brightness(120%);
+		filter: brightness(120%);
+	}
+	.webengine-language-switcher li a {
+		color: #999999;
+	}
+	.webengine-language-switcher li a:hover {
+		color: #ffffff !important;
+	}
+	
+/* MY ACCOUNT CHARACTER LIST */
+.myaccount-character-block {
+	background: #333;
+	border: 1px solid #666;
+	padding: 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	margin: 0px auto;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+	.myaccount-character-block img {
+		width: 100px;
+		height: auto;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		-moz-box-shadow: 0 0 5px #000;
+		-webkit-box-shadow: 0 0 5px #000;
+		box-shadow: 0 0 5px #000;
+		-moz-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+		.myaccount-character-block img:hover {
+			-webkit-filter: brightness(120%);
+			filter: brightness(120%);
+		}
+.myaccount-character-block-location {
+	font-size: 12px;
+	color: #000;
+	margin-bottom: 20px;
+	margin-top: 2px;
+	line-height: 1.2;
+}
+.myaccount-character-block-level {
+	position: relative;
+	top: -77px;
+	display: inline-block;
+	background: rgba(0,0,0,0.5);
+	padding: 0px 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 10px;
+}
+.myaccount-character-name a {
+	font-weight: bold;
+	color: #000;
+	font-size: 16px;
+}
+
+/* PAYPAL */
+.paypal-gateway-container {
+	width: 100%;
+}
+
+.paypal-gateway-content {
+	background: #fef2da;
+	border: 3px solid #f79433;
+	padding: 15px;
+	overflow: auto;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.paypal-gateway-logo {
+	width: 100%;
+	height: 100px;
+	background: #fff9ec url('../img/paypal-logo-200-68.png') no-repeat center;
+	background-size: contain;
+	margin-bottom: 15px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.paypal-gateway-conversion-rate {
+	margin: 0px auto;
+	text-align: center;
+	color: #000;
+	font-size: 18px;
+	padding: 10px 0px;
+}
+
+.paypal-gateway-form {
+	width: 100%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.paypal-gateway-form div {
+	display: inline-block;
+	padding: 0px 10px;
+	color: #000;
+	font-size: 24px;
+}
+
+.paypal-gateway-form input[type=text] {
+	width: 60px;
+	font-size: 24px;
+	border: 3px solid #f79433;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #f79433;
+	background: #fff;
+}
+
+.paypal-gateway-continue {
+	margin: 0px auto;
+	text-align: center;
+}
+
+.paypal-gateway-continue input[type=submit] {
+	background: url('../img/paypal-submit.jpg') no-repeat;
+	width: 200px;
+	height: 40px;
+	border: 0px;
+}

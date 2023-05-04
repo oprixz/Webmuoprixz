@@ -1,0 +1,585 @@
+/*vigomu.net*/
+.admincp-button {
+	position:absolute;
+	top:10px;
+	right:10px;
+	z-index: 9999;
+}
+
+.page-title {
+	color: #52362c;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 32px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+/* RANKINGS MODULE */
+.rankings-table {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border: 1px solid #c09074;
+	background: rgba(255, 255, 255, 0.3);
+}
+.rankings-table a {
+	text-decoration: none;
+}
+.rankings-table a:hover {
+	color: #555;
+}
+
+.rankings-class-image {
+	width: 30px;
+	height: auto;
+	-moz-box-shadow: 0 0 5px #aaa;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+.rankings-table tr td {
+	border-bottom: 1px solid #c09074;
+	padding: 10px;
+	font-size: 12px;
+	vertical-align: middle !important;
+	text-align: center;
+}
+.rankings-table tr:nth-child(2n+2) td {
+	background: rgba(255, 255, 255, 0.5);
+}
+.rankings-table-place {
+	color: #52362c;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+.rankings-table tr:first-child td {
+	color: #52362c;
+	border-bottom: 1px solid #c09074;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: rgba(136, 93, 15, 0.2);
+}
+.rankings-update-time {
+	text-align: right;
+	font-size: 11px;
+	color: #ccc;
+	padding: 10px 0px;
+}
+.rankings_menu {
+	width: 100%;
+	overflow: auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.rankings_menu span {
+	width: 100%;
+	display: inline-block;
+	padding: 10px 0px;
+	color: #ccc;
+	font-size: 24px;
+}
+.rankings_menu a {
+	background: url('../img/ranking_button.jpg') no-repeat center center;
+	display: inline-block;
+	width: 150px;
+	border: 1px solid #3e2915;
+	text-align: center;
+	padding: 10px 0px;
+	margin: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	color: #aaa;
+	font-weight: bold;
+	-moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+}
+.rankings_menu a.active{
+	color: #f1ffdd !important;
+	border-color: #76c800;
+	background: url('../img/ranking_button_hover.jpg') no-repeat center center;
+}
+.rankings_menu a:hover {
+	color: #fff !important;
+	-webkit-filter: brightness(120%);
+	filter: brightness(120%);
+}
+.rankings_guild_logo tr td {
+	border: 0px !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.rankings-gens-img {
+	width: auto !important;
+	height: 30px !important;
+	border: 0 !important;
+	-moz-box-shadow: 0 0 0px #000 !important;
+	-webkit-box-shadow: 0 0 0px #000 !important;
+	box-shadow: 0 0 0px #000 !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+}
+
+/* MY ACCOUNT MODULE */
+.myaccount-table {
+	width: 100%;
+	background: rgba(255, 255, 255, 0.3);
+}
+.myaccount-table tr td:first-child {
+	color: #6b5428;
+	font-weight: bold;
+}
+.myaccount-table tr td {
+	border-bottom: 1px solid #f1f1f1;
+	padding: 20px 30px !important;
+}
+.myaccount-table tr:nth-child(2n+2) td {
+	background: rgba(255, 255, 255, 0.3);
+}
+.myaccount-table tr:last-child td {
+	border: 0px;
+}
+
+/* GENERAL TABLE UI */
+.general-table-ui {
+	width: 100%;
+	table-layout: fixed;
+	background: rgba(255, 255, 255, 0.3);
+	transition: all 0.3s ease;
+	border: 0px;
+	padding: 10px;
+	margin: 10px 0px;
+}
+.general-table-ui tr td {
+	padding: 5px;
+	vertical-align: middle !important;
+}
+.general-table-ui tr:first-child td {
+	color: #52362c;
+	font-weight: bold;
+	font-size: 14px;
+}
+.general-table-ui tr:nth-child(2n+2) td {
+	background: rgba(255, 255, 255, 0.5);
+}
+.general-table-ui tr td {
+	text-align: center;
+}
+.general-table-ui img {
+	width: 50px;
+	height: auto;
+	-moz-box-shadow: 0 0 5px #666;
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+
+/* TERMS OF SERVICE PAGE */
+.tos_list li {
+	color: #0000aa;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+.tos_list li p {
+	color: #444;
+	text-align: justify;
+	text-justify: inter-word;
+	text-transform: none;
+	padding-right: 35px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+/* PAYPAL */
+.paypal-gateway-container {
+	width: 100%;
+}
+
+.paypal-gateway-logo {
+	width: 100%;
+	height: 120px;
+	background: #fff9ec url('../img/paypal-logo-200-68.png') no-repeat center center;
+	margin-bottom: 20px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.paypal-gateway-content {
+	background: #fef2da;
+	border: 2px solid #f79433;
+	padding: 30px;
+	overflow: auto;
+}
+
+.paypal-gateway-conversion-rate {
+	margin: 0px auto;
+	text-align: center;
+	color: #000;
+	font-size: 18px;
+	padding: 10px 0px;
+}
+
+.paypal-gateway-form {
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.paypal-gateway-form div {
+	display: inline-block;
+	padding: 0px 10px;
+	color: #000;
+	font-size: 18px;
+}
+
+.paypal-gateway-form input[type=text] {
+	width: 40px;
+}
+
+.paypal-gateway-continue {
+	margin: 0px auto;
+	text-align: center;
+}
+
+.paypal-gateway-continue input[type=submit] {
+	background: url('../img/paypal-submit.jpg') no-repeat;
+	width: 200px;
+	height: 40px;
+	border: 0px;
+	transition: all 0.3s ease;
+}
+.paypal-gateway-continue input[type=submit]:hover {
+	-webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+/* CASTLE SIEGE CSS */
+.csinfo_container {
+	background: url('../img/castle_siege.jpg') no-repeat top right;
+	background-size: cover;
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #333;
+	-moz-box-shadow: 0 0 10px #555;
+	-webkit-box-shadow: 0 0 10px #555;
+	box-shadow: 0 0 10px #555;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
+}
+.csinfo_content {
+	width: 100%;
+	height: 180px;
+	margin: 10px 0px 0px 10px;
+	display: inline-block;
+}
+	.csinfo_glogo {
+		float: left;
+		width: 30%;
+		height: 180px;
+		text-align: center;
+	}
+	.csinfo_ginfo {
+		float: left;
+		width: 70%;
+		padding: 0px 10px;
+	}
+	
+		.csinfo_ginfo table {
+			table-layout: fixed;
+			width: 400px;
+		}
+			.csinfo_ginfo table tr td {
+				padding: 3px 0px;
+				font-size: 20px;
+				color: #fff;
+			}
+			.csinfo_ginfo table tr td:first-child {
+				color: #9a7e46;
+			}
+			
+.csinfo_glist {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+	.csinfo_glist li {
+		float: left;
+		width: 30%;
+		padding: 8px 10px;
+	}
+	.csinfo_glist li:hover {
+		background: #0d0c0b;
+	}
+
+.module-requirements {
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+/* SIDEBAR */
+.panel-sidebar {
+	background: #20324d;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.panel-sidebar > .panel-heading {
+	background: #20324d url('../img/sidebar_panel_title.jpg') no-repeat top center;
+	color: #fff;
+	font-family: 'PT Sans', sans-serif;
+	border: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	height: 61px;
+	padding: 0px 15px 0px 15px;
+}
+
+.panel-sidebar > .panel-heading > .panel-title {
+	font-weight: bold;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+
+.panel-sidebar > .panel-body {
+	color: #fff;
+}
+
+/* USERCP SIDEBAR PANEL */
+.panel-usercp ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.panel-usercp ul li {
+	display: table;
+	width: 100%;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+.panel-usercp ul li a {
+	color: #a79376 !important;
+	font-weight: bold;
+	text-decoration: none;
+}
+.panel-usercp ul li a:active, .panel-usercp ul li a:hover {
+	color: #ffffff !important;
+	text-decoration: none;
+}
+
+.panel-usercp ul li img {
+	position: relative;
+	top: -2px;
+	padding-right: 10px;
+}
+
+/* SIDEBAR BANNERS */
+.sidebar-banner {
+	margin: 20px 0px;
+	border: 0px;
+}
+.sidebar-banner img {
+	width: 100%;
+	height: auto;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	transition: all 0.3s ease;
+}
+.sidebar-banner img:hover {
+	-webkit-filter: brightness(130%);
+    filter: brightness(130%);
+}
+
+/* GENERAL PANEL STYLING */
+.panel-general {
+	margin-bottom: 30px;
+	background: rgba(255, 255, 255, 0.3);
+	transition: all 0.3s ease;
+	border: 1px solid #c09074;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	color: #333;
+}
+.panel-general:hover {
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.panel-body .panel-title {
+	color: #6b5428;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	border-bottom: 1px solid #c09074;
+	margin-bottom: 20px !important;
+	font-weight: bold;
+}
+
+/* ADD STATS MODULE */
+.panel-addstats {
+	margin-bottom: 30px;
+	background: rgba(255, 255, 255, 0.3);
+	transition: all 0.3s ease;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	color: #333;
+	padding-top: 15px;
+}
+.panel-addstats:hover {
+	background: rgba(255, 255, 255, 0.8);
+}
+.panel-addstats .character-avatar img {
+	width: 100px;
+	height: auto;
+	-moz-box-shadow: 0 0 5px #666;
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+.panel-addstats .character-name {
+	color: #6b5428;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	border-bottom: 1px solid #c09074;
+	padding: 20px 0px;
+	margin-bottom: 20px !important;
+	font-weight: bold;
+}
+
+/* DOWNLOADS */
+.panel-downloads {
+	margin-bottom: 30px;
+	background: rgba(255, 255, 255, 0.3);
+	transition: all 0.3s ease;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	color: #333;
+}
+.panel-downloads:hover {
+	background: rgba(255, 255, 255, 0.8);
+}
+	.panel-downloads .panel-title {
+		font-size: 18px;
+	}
+	.download-description {
+		font-size: 11px;
+		position: relative;
+		top: -7px;
+		color: #777;
+	}
+
+.online-status-indicator {
+	margin-left: 5px;
+}
+
+/* WEBENGINE CMS */
+.webengine-powered { color: #8b8b8c !important; }
+.webengine-powered:active, .webengine-powered:hover { color: #ffffff !important; }
+
+/* FOOTER MENU */
+.footer-menu {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+	.footer-menu li:first-child {
+		color: #fff;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	.footer-menu li a {
+		color: #ff9000;
+	}
+	.footer-menu li a:hover, .footer-menu li a:active {
+		color: #ffc000 !important;
+	}
+
+/* CASTLE SIEGE SIDEBAR PANEL */
+.panel-castle-siege {
+	color: #fff;
+}
+	.panel-castle-siege img {
+		box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	}
+	.panel-castle-siege a {
+		color: #fff;
+	}
+	.panel-castle-siege .title-castle-owner {
+		font-weight: bold;
+		color: #a79376;
+	}
+	.panel-castle-siege .title-guild-master {
+		font-weight: bold;
+		color: #a79376;
+	}
+	.panel-castle-siege .title-castle-battle {
+		font-weight: bold;
+	}
+	.panel-castle-siege .castle-siege-countdown {
+		margin-top: 35px;
+	}
+	.panel-castle-siege .castle-countdown {
+		font-size: 28px;
+		font-weight: bold;
+		color: #fff;
+	}
+	.panel-castle-siege .castle-countdown span {
+		color: #ffcc00;
+		font-size: 20px;
+	}
+
+/* NEWS */
+.news-article {
+	position: relative;
+	padding: 15px 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
+}
+	.news-article .news-image {
+		padding: 10px;
+	}
+	.news-article .news-image img {
+		width: 100%;
+		height: auto;
+		box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+	}
+	.news-article .news-content {
+		padding: 10px;
+	}
+		.news-article .news-content h3 {
+			margin: 0px 0px 15px 0px;
+			padding: 0px 0px 5px 0px;
+			text-transform: uppercase;
+			font-size: 18px;
+			font-weight: bold;
+			border-bottom: 1px solid #230707;
+		}
+		.news-article .news-content h3 a {
+			color: #230707;
+		}
+		.news-article .news-content .news-date {
+			font-size: 12px;
+			font-style: italic;
+			color: #aaa;
+		}
+	.news-article:hover {
+		background: rgba(255, 255, 255, 0.3);
+	}
